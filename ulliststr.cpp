@@ -184,6 +184,7 @@ std::string* ULListStr::getValAtLoc(size_t loc) const
   {
     return NULL;
   }
+  
   Item* temp_ =head_;
   while((temp_->last)-(temp_->first)<=loc)
   {
